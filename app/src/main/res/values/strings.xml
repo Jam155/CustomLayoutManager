@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CustomLayoutManager</string>
+    <string name="picture_default">Default Picture</string>
 </resources>
