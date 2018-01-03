@@ -1,4 +1,4 @@
-package net.tinad.jam.customlayoutmanager;
+package net.tinad.jam.customlayoutmanager.models;
 
 import java.net.URL;
 

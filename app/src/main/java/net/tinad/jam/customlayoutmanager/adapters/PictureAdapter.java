@@ -3,7 +3,7 @@ package net.tinad.jam.customlayoutmanager.adapters;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
-import net.tinad.jam.customlayoutmanager.PictureModel;
+import net.tinad.jam.customlayoutmanager.models.PictureModel;
 import net.tinad.jam.customlayoutmanager.viewholders.PictureViewHolder;
 
 import java.util.ArrayList;

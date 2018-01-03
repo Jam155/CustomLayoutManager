@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import net.tinad.jam.customlayoutmanager.adapters.PictureAdapter;
+import net.tinad.jam.customlayoutmanager.models.PictureModel;
 
 import java.util.ArrayList;
 
