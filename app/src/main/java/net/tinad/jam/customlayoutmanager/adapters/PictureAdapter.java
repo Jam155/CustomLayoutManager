@@ -1,8 +1,11 @@
 package net.tinad.jam.customlayoutmanager.adapters;
 
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
+import net.tinad.jam.customlayoutmanager.R;
 import net.tinad.jam.customlayoutmanager.models.PictureModel;
 import net.tinad.jam.customlayoutmanager.viewholders.PictureViewHolder;
 
@@ -24,13 +27,16 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureViewHolder> {
 
     public int getItemCount() {
 
-        return 0;
+        return pictures.size();
 
     }
 
-    public PictureViewHolder onCreateViewHolder(ViewGroup viewGroup, int type) {
+    public PictureViewHolder onCreateViewHolder(ViewGroup parent, int type) {
 
-        return new PictureViewHolder(viewGroup);
+        View itemView = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.picture_view, parent, false);
+
+        return new PictureViewHolder(itemView);
 
     }
 
