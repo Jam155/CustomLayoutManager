@@ -43,6 +43,7 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureViewHolder> {
     public void onBindViewHolder(PictureViewHolder viewHolder, int position) {
 
         PictureModel pictureModel = pictures.get(position);
+        viewHolder.setupView(pictureModel);
 
     }
 
